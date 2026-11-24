@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.auth-container {
+    width: 100%;
+    max-width: 410px;
+}
+
+.auth-card {
+    padding: 32px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 28px;
+    padding: 5px;
+    background: #f0f1f8;
+    border-radius: 9px;
+}
+
+.tab {
+    flex: 1;
+    padding: 11px;
+    border: 0;
+    border-radius: 7px;
+    background: transparent;
+    color: #555;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.tab.active {
+    background: #667eea;
+    color: white;
+}
+
+h1 {
+    margin-bottom: 8px;
+    color: #25253a;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 24px;
+    color: #777;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 14px 0 7px;
+    color: #333;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #d5d5df;
+    border-radius: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.12);
+}
+
+.submit-button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px;
+    border: 0;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background: #5368d5;
+}
+
+.message {
+    min-height: 20px;
+    margin-top: 14px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.message.success {
+    color: #16803c;
+}
+
+.message.error {
+    color: #d12f2f;
+}
+
+.switch-text {
+    margin-top: 16px;
+    color: #666;
+    text-align: center;
+    font-size: 14px;
+}
+
+a {
+    color: #667eea;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.hidden {
+    display: none;
+}
